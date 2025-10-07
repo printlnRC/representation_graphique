@@ -1,5 +1,5 @@
 
-def dichotomie(f, a0, b0, epsilon=1e-6, max_iter=100):
+def dichotomie(f, a0, b0, epsilon, max_iter=100):
     """
     Recherche une racine de f(x)=0 dans [a0, b0] par dichotomie.
     Arrête lorsque l'intervalle est plus petit que epsilon.

@@ -6,7 +6,7 @@ from numpy import linspace, sqrt # Importation de linspace et sqrt de numpy
 def P(u):
     return 2 / sqrt(u) - 3 - 4 * u**3 # Fonction dérivée de la puissance
 
-racine = dichotomie(P, 0.01, 1) 
+racine = dichotomie(P, 0.01, 1, 1e-6) 
 print(f"Racine de P(u) sur [0.01, 1] : u = {racine}")
 
 
